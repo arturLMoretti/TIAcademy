@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(../img/download.jpeg);
+    background-size: 25%;
+    background-repeat: repeat-y;
+}
+
+div {
+    width: 800px;
+    height: 600px;
+    border: 1px solid #000;
+}

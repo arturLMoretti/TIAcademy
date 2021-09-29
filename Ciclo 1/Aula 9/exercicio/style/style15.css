@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(../img/img15.jpg);
+    background-repeat: repeat-x;
+    background-size: 25%;
+}

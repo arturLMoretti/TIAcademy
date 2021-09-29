@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div#ex-17 {
+    width: 100px;
+    height: 100px;
+    background-color: darkorange;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
