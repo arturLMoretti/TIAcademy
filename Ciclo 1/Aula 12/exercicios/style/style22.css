@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+header {
+  color: #010100;
+  background-image: radial-gradient(#a7741a, #fff910);
+  padding: 5px 30px;
+  border-top: 3px solid #2d0e12;
+  border-bottom: 3px solid #2d0e12;
+  margin-bottom: 50px;
+}
+
+div {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+footer {
+  color: #fff910;
+  background-image: linear-gradient(#1a396e, #2d0e12);
+  padding: 5px 30px;
+  border-top: 3px solid #2d0e12;
+  border-bottom: 3px solid #2d0e12;
+  margin-top: 50px;
+}
