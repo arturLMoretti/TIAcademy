@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #afa94f;
+  border-bottom: 3px solid #151405;
+  padding: 10px;
+  color: #fff9a9;
+}
+
+main {
+  width: 95%;
+  margin: 0 auto;
+}
+
+div {
+  margin: 20px;
+}
+
+#gradiente-linear,
+#gradiente-radial {
+  display: inline-block;
+  width: 45%;
+  height: 150px;
+  margin: 10px;
+}
+
+#gradiente-linear {
+  background-image: linear-gradient(to bottom, #ffaba9, #af514f, #150505);
+}
+
+#gradiente-radial {
+  background-image: radial-gradient(#150505, #af514f, #ffaba9);
+}
+
+footer {
+  color: #a4dff3;
+  text-align: center;
+  background-color: #345f6d;
+  border-top: 3px solid #030b0d;
+}
