@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Cards</title>
+</head>
+<style>
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.cima, .baixo {
+    height: 40px;
+    width: 100%;
+    padding:5px;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    justify-content:center;
+    align-items: center;
+}
+
+.tela {
+    width: 320px;
+    height: 220px;
+    background-color:#37474F;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin: 3px;
+}
+
+.meio {
+    width: 80px;
+    height: 80px;
+    font-size: 42px;
+    border-radius: 100%;
+    background-color: #039BE5;
+    color: white;
+}
+
+.baixo > .nome {
+    font-size:18px;
+    font-weight:bold;
+    color: white;
+}
+
+#retanguloPai .cima .mic {
+    width: 35px;
+    height: 35px;
+    background-color: #455A64;
+    border-radius:100%;
+    color: white;
+    cursor: pointer;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+</style>
+<body class="flex column">
+    <header class = "topo">
+        <h1>
+            Cards
+        </h1>
+    </header>
+
+    <main class=" flex center">
+        <div id="retanguloPai" class="flex column center tela">
+            <div class="cima flex flex-end">
+                <span class="material-icons flex mic center">
+                    mic_off
+                </span>
+            </div>
+            <div class="meio flex center">M</div>
+            <div class="baixo flex">
+                <div class="nome">Prof. Marcelo</div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        by Artur Lemes Moretti - TIAcademy
+    </footer>
+
+</body>
+</html>

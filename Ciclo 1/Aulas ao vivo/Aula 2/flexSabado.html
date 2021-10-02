@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex - Sábado</title>
+</head>
+<style>
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#paiFlex {
+    width: 500px;
+    height: 500px;
+    border: 2px solid tomato;
+    background-color:yellowgreen;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.filha {
+    width: 80px;
+    height: 80px;
+    background-color: tomato;
+    margin:2px;
+}
+
+.meuSpan {
+    background-color:violet;
+    width: 100%;
+    display: flex;
+}
+</style>
+<body>
+    <!-- <div id="paiFlex">
+        <div class="filha"></div>
+        <div class="filha"></div>
+        <div class="filha"></div>
+    </div> -->
+    <ul id="paiFlex"> 
+        <li class="filha">Teste 1</li>
+        <li class="filha">Teste 2</li>
+        <li class="filha">Teste 3</li>
+    </ul>
+
+    <span class="meuSpan">Marcelo</span>
+</body>
+</html>
