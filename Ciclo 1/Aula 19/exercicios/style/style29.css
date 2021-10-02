@@ -1,0 +1,35 @@
+:root {
+  --cor_A: #258796;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header {
+  background-color: var(--cor_A);
+  margin: 30px;
+  box-shadow: 2px 2px black;
+  transition: 1s;
+  padding-left: 15px;
+}
+
+.questions {
+  margin: 30px;
+  transition: 1s;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+footer {
+  background-color: #342f35;
+  color: white;
+  margin: 30px;
+  box-shadow: 2px 2px black;
+  padding: 5px 0;
+  transition: 1s;
+  padding-left: 15px;
+}
