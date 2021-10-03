@@ -1,0 +1,60 @@
+/* Palette URL: http://paletton.com/#uid=7031Q0kuEmcmctssBrpAChVL9cy */
+:root {
+  font-size: 100%;
+  --header_border_color: #b11407;
+  --header_nav_bg_color: #37b34d;
+  --header_font_color: #640700;
+  --default_font: Verdana;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+  width: 80%;
+  margin: auto;
+}
+
+header#top-header {
+  border-bottom: 4px solid var(--header_border_color);
+  height: 60px;
+}
+
+.flex {
+  display: flex;
+}
+
+header h1,
+header nav {
+  width: 50%;
+}
+header h1 {
+  color: var(--header_font_color);
+  font-family: var(--default_font);
+  align-items: center;
+  font-size: 2.5rem;
+}
+header nav {
+}
+
+nav ul li {
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: var(--default_font);
+  color: var(--header_font_color);
+}
+
+header nav ul#list-menu {
+  justify-content: flex-end;
+  width: 100%;
+}
