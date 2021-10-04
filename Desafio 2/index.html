@@ -9,31 +9,37 @@
     rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
 </head>
-<body>
-    <header>
-        <h1>
-            ME ACHA!
-        </h1>
-        <h2>
-            ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP
-        </h2>
+<body class="flex">
+    <header class="flex">
+        <div id="header-top">
+            <h1>
+                ME ACHA!
+            </h1>
+            <h2>
+                ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP
+            </h2>
+        </div>
 
-        <span class="material-icons">
-            travel_explore
-        </span>
+        <div id="header-bottom" class="flex">
+            <span class="material-icons md-48 header-bottom">
+                travel_explore
+            </span>
+        </div>
     </header>
-
+    
+   <!--https://webdesign.tutsplus.com/pt/tutorials/building-responsive-forms-with-flexbox--cms-26767--> 
     <main>
         <form method="post">
-            <div>
-                <label for="">Cep
-                    <input type="text" name="" id="">
-                </label>
-            </div>
+            <ul class="flex outer">
+                <li>
+                    <label for="Cep">Cep</label>
+                    <input type="text" name="Cep" id="Cep">
+                </li>
+            </ul>
         </form>
     </main>
 
-    <footer>
+    <footer class="flex">
         by Artur Lemes Moretti - TIAcademy
     </footer>
 </body>
