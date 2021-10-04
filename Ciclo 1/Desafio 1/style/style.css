@@ -1,0 +1,142 @@
+:root {
+  --cor_1: #212121;
+  --cor_2: red;
+  --cor_3: #f9a825;
+  --footer-heigth: 80px;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header {
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid black;
+  height: 40px;
+  background-color: var(--cor_1);
+  color: aliceblue;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+header nav {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(209, 209, 209);
+}
+
+header nav .links {
+  list-style: none;
+  text-decoration: none;
+  height: 100%;
+}
+
+header nav .links .item {
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid black;
+  width: 150px;
+  list-style: none;
+  text-decoration: none;
+}
+
+header nav .links .item:hover {
+  background-color: var(--cor_3);
+  color: white;
+}
+
+header nav .links .contato {
+  border-left: 0;
+  border-right: 0;
+}
+
+#login-box {
+  width: 60%;
+  height: 50vh;
+  margin: 0 auto;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 25px;
+}
+
+#text-login {
+  height: 75%;
+  width: 45%;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 25px 0;
+}
+
+#text-login h2 {
+  font-size: 1.5rem;
+}
+#text-login h2 p {
+  font-size: 1rem;
+}
+
+#text-login > p {
+  font-size: 0.9rem;
+  text-align: right;
+}
+form {
+  height: 75%;
+}
+.login-validation {
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 25px 0;
+}
+
+.user,
+.password {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#input-email,
+#input-password {
+  border: 1px solid black;
+  height: 2rem;
+  padding: 10px;
+  width: 100%;
+}
+
+form input#botao {
+  height: 1.5rem;
+  font-size: 1rem;
+  border: 1px solid black;
+  box-shadow: 2px 2px black;
+  cursor: pointer;
+}
+
+footer {
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  color: rgb(209, 209, 209);
+  background-color: var(--cor_1);
+  font-size: 0.8rem;
+}
