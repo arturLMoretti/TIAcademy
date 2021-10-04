@@ -1,0 +1,156 @@
+/* Palette URL: http://paletton.com/#uid=7031Q0kuEmcmctssBrpAChVL9cy */
+:root {
+  font-size: 100%;
+  --header_border_color: #b11407;
+  --header_nav_bg_color: #37b34d;
+  --header_font_color: #640700;
+  --header_hovered_color: #eb5448;
+  --button_bg_color: #06871c;
+  --button_bg_hover: #004c0d;
+  --default_font: "Oswald", sans-serif;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  flex-direction: column;
+}
+
+header,
+main,
+footer {
+  width: 80%;
+  margin: auto;
+}
+
+header#top-header {
+  border-bottom: 4px solid var(--header_border_color);
+}
+
+.flex {
+  display: flex;
+}
+
+header h1,
+header nav {
+  width: 50%;
+}
+header h1 {
+  color: var(--header_font_color);
+  font-family: var(--default_font);
+  align-items: center;
+  font-size: clamp(0.8rem, 2.5rem, 3rem);
+}
+
+nav#menu ul#list-menu li.item {
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: var(--default_font);
+  color: var(--header_font_color);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav#menu ul#list-menu {
+  justify-content: flex-end;
+  width: 100%;
+}
+
+a.go:hover {
+  background-color: var(--header_hovered_color);
+  color: white;
+  transition: 0.5s;
+}
+
+.icons-list {
+  margin-right: 2px;
+  font-size: 1.5rem;
+}
+
+section#section-cards {
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  flex-grow: 1;
+}
+
+section#section-cards > div.card {
+  width: 320px;
+  height: 400px;
+  border: 1px solid black;
+  flex-direction: column;
+  margin: 10px;
+  flex-grow: 2;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section#section-cards > div.card > figure.card-img-pizza {
+  width: 80%;
+  padding: 2px;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+h2.nome-pizza {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px 0;
+  flex-grow: 1;
+}
+
+img.img-pizza {
+  width: 100%;
+}
+
+form.formTamanhoPizza {
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25%;
+}
+
+form.formTamanhoPizza label {
+  width: 30px;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px;
+  cursor: pointer;
+}
+
+form.formTamanhoPizza label:hover {
+  background-color: grey;
+}
+
+form.formTamanhoPizza input#botao-deliciar {
+  cursor: pointer;
+  width: 100px;
+  height: 45px;
+  font-family: var(--default_font);
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: var(--button_bg_color);
+  border: 2px solid black;
+}
+
+form.formTamanhoPizza input#botao-deliciar:hover {
+  background-color: var(--button_bg_hover);
+  color: white;
+}
+
+footer {
+  margin-top: 20px;
+  border-top: 2px solid var(--header_border_color);
+}

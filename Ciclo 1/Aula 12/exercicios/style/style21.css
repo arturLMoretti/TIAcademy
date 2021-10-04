@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+header {
+  background-image: linear-gradient(to bottom, #0b151e, #17446c);
+  color: #2196ff;
+  padding: 30px 15px;
+  margin-bottom: 15px;
+}
+
+div {
+  margin: 30px 15px;
+}
+
+footer {
+  background-image: linear-gradient(to top, #0b151e, #17446c);
+  color: #a7461a;
+  padding: 30px 15px;
+  margin-top: 15px;
+}

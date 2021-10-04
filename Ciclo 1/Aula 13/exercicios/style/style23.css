@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+header {
+  color: #010100;
+  font-size: 30px;
+  padding: 15px 30px;
+  background-color: #97ff10;
+  border-bottom: 3px solid #ff8700;
+  margin-bottom: 30px;
+}
+
+div {
+  padding: 5px 30px;
+}
+
+figure {
+  text-align: center;
+  width: 50%;
+  margin: 10px auto;
+  border: 1px solid #0a181d;
+}
+
+img {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+figcaption {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  background: linear-gradient(#1abaff, #1e2b0e);
+}
+
+footer {
+  color: #010100;
+  padding: 15px 30px;
+  background-color: #97ff10;
+  border-top: 3px solid #ff8700;
+}

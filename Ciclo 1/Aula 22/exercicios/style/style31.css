@@ -1,0 +1,86 @@
+:root {
+  --cor_header_background: #13073a;
+  --cor_header_font: #fffbe8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #c3cbdc;
+  background-image: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%);
+}
+
+header {
+  background-color: var(--cor_header_background);
+  transition: 1s;
+  padding-left: 15px;
+  color: var(--cor_header_font);
+  box-shadow: 2px 2px black;
+  height: 10vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.questions {
+  height: 85vh;
+  background-color: blue;
+  transition: 1s;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div {
+  height: 5vh;
+  border: 1px solid black;
+}
+
+div.amarela {
+  background-color: yellow;
+}
+
+div.verde {
+  background-color: green;
+  width: 49%;
+  height: 60%;
+}
+
+footer {
+  background-color: #342f35;
+  color: white;
+  box-shadow: 2px 2px black;
+  padding: 5px 0;
+  transition: 1s;
+  padding-left: 15px;
+  height: 5vh;
+}
+
+div#um {
+  height: 10vh;
+}
+div#dois {
+  height: 30vh;
+}
+
+div.dupla {
+  justify-content: space-between;
+  height: 20vh;
+}
+
+.dupla-amarela {
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+}
+
+div#tres,
+div#quatro {
+  height: 100%;
+  width: 50%;
+}

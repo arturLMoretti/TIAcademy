@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header {
+  background-color: #469945;
+  margin: 30px;
+  box-shadow: 2px 2px black;
+  transition: 1s;
+}
+
+.questions {
+  margin: 30px;
+  transition: 1s;
+}
+
+footer {
+  background-color: #342f35;
+  color: white;
+  margin: 30px;
+  box-shadow: 2px 2px black;
+  padding: 5px 0;
+  transition: 1s;
+}

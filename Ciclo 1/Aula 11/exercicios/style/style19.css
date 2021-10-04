@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: #345f6d;
+  border-bottom: 3px solid #030b0d;
+  color: #fff;
+  padding: 10px;
+}
+
+main {
+  padding: 30px;
+  padding-top: 0;
+}
+
+h2 {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+p {
+  padding: 5px;
+}
+
+div {
+  padding: 5px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #345f6d;
+  border-bottom: 3px solid #030b0d;
+  color: #a4dff3;
+  padding: 10px;
+}

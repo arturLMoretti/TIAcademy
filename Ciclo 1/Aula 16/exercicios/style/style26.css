@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+header {
+  background-color: azure;
+  border-bottom: 3px dotted black;
+  padding: 50px 30px;
+}
+
+div {
+  margin: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: #000;
+  transition: width 0.1s, height 0.1s, background-color 0.3s;
+  padding: 15px;
+}
+
+div:hover {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+footer {
+  background-color: aquamarine;
+  border-top: 3px dotted black;
+  border-bottom: 3px dotted black;
+  margin-top: 30px;
+}
