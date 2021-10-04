@@ -1,0 +1,13 @@
+:root {
+  --cor_1: #2196f3;
+  --cor_2: #3d5afe;
+  --cor_3: #0d47a1;
+  --header_heigth: 200px;
+  --default_font: verdana;
+}
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
