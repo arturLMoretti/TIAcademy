@@ -26,11 +26,13 @@ ul {
 }
 
 ul > li {
+/*     https://codepen.io/CrocoDillon/pen/fBJxu  */    
+    font-size: calc(4vw + 4vh + 2vmin);
     cursor: pointer;
     font-size: 18px;
     border: 1px solid #FFF3E0;
     margin: 2px;
-
+    width: 100%;
     justify-content: space-between;
 
 }
@@ -46,7 +48,9 @@ ul > li:hover {
 }
 
 .preco {
-    width: 10%
+    text-align: end;
+    padding: 5px;
+    padding-right: 20px;
 }
 
 h1 {
@@ -66,7 +70,7 @@ h2 {
 }
 
 div {
-       flex-direction: column;
+    flex-direction: column;
     padding: 2px;
     width: 100%;
     height: auto;
