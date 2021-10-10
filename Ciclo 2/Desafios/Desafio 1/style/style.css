@@ -26,8 +26,6 @@ ul {
 }
 
 ul > li {
-    padding: 5px;
-    padding-left: 20px;
     cursor: pointer;
     font-size: 18px;
     border: 1px solid #FFF3E0;
@@ -40,6 +38,11 @@ ul > li {
 ul > li:hover {
     background-color: #FFE0B2;
     font-weight: bold;
+}
+
+.Nome {
+    padding: 5px;
+    padding-left: 20px;
 }
 
 .preco {
