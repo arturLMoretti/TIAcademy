@@ -90,6 +90,13 @@ main form .outer li input[type="text"] {
   border-radius: 5px;
 }
 
+main form .outer li input[type="text"]:disabled {
+  background-color: grey;
+  border: 1px solid black;
+  color: white;
+  font-weight: bold;
+}
+
 main form .outer li input[type="submit"] {
   width: 100%;
   margin: 0;
@@ -100,6 +107,11 @@ main form .outer li input[type="submit"] {
   box-shadow: 2px 2px var(--cor_3);
 }
 
+main form .outer li input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: var(--cor_3)
+}
+
 footer {
   border-top: 1px solid black;
   height: 40px;
@@ -107,4 +119,5 @@ footer {
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  color: whitesmoke;
 }
