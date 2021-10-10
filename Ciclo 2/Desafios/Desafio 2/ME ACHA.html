@@ -29,7 +29,7 @@
     
 <!--https://webdesign.tutsplus.com/pt/tutorials/building-responsive-forms-with-flexbox--cms-26767--> 
     <main>
-        <form method="post">
+        <form id="mainForm" method="GET" action=".">
             <ul class="flex outer">
                 <li>
                     <label for="Cep">Cep</label>
@@ -37,19 +37,19 @@
                 </li>
                 <li>
                     <label for="Rua">Rua</label>
-                    <input type="text" name="Rua" id="Rua">
+                    <input disabled type="text" name="Rua" id="Rua">
                 </li>
                 <li>
                     <label for="Bairro">Bairro</label>
-                    <input type="text" name="Bairro" id="Bairro">
+                    <input disabled type="text" name="Bairro" id="Bairro">
                 </li>
                 <li>
                     <label for="Cidade">Cidade</label>
-                    <input type="text" name="Cidade" id="Cidade">
+                    <input disabled type="text" name="Cidade" id="Cidade">
                 </li>
                 <li>
                     <label for="Estado">Estado</label>
-                    <input type="text" name="Estado" id="Estado">
+                    <input disabled type="text" name="Estado" id="Estado">
                 </li>
                 <li>
                     <input type="submit" name="Buscar" id="Buscar" value="BUSCAR">
@@ -61,5 +61,7 @@
     <footer class="flex">
         by Artur Lemes Moretti - TIAcademy
     </footer>
+
+    <script src="./js/script.js" type="module"></script>
 </body>
 </html>
