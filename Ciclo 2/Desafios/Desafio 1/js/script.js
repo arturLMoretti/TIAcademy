@@ -1,4 +1,4 @@
-import { produtos } from './produtos';
+import { produtos } from './produtos.js';
 
 const listaProdutos = document.getElementById('produtos');
 const suaCesta = document.getElementById('cestaDoCliente');

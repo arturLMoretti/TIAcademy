@@ -94,6 +94,8 @@ div {
 }
 
 .flex-row-end > #mostraTotalCompra {
-     font-size: 28px;
-     font-weight: bold;
+    text-align: end;
+    width: 100%;
+    font-size: 28px;
+    font-weight: bold;
 } 

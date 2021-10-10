@@ -1,4 +1,4 @@
-export const produtos = [
+const produtos = [
     {
         produto: 'Mamão Papaia',
         precoKg: 4.99,
@@ -20,3 +20,5 @@ export const produtos = [
         precoKg: 1.99,
     }
 ];
+
+export { produtos }
